@@ -27,7 +27,7 @@ function displayUserInfo(data) {
   userInfoDiv.innerHTML = `
     <h5 class="text-primary mb-4 mb-sm-5">Your requested user information is provided below:</h5>
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4 d-flex justify-content-center align-items-center d-sm-block">
             <img class="mb-4" src="${data.avatar_url}">
         </div>
         <div class="col-sm-8">
@@ -76,7 +76,7 @@ function displayOrgInfo(data) {
   orgInfoDiv.innerHTML = `
   <h5 class="text-primary mb-4 mb-sm-5">Your requested organization information is provided below:</h5>
   <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4 d-flex justify-content-center align-items-center d-sm-block">
           <img class="mb-4" src="${data.avatar_url}">
       </div>
       <div class="col-sm-8">

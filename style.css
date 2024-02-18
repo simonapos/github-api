@@ -95,10 +95,15 @@ button:hover {
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 767.98px) {
     .content-left{
         border-bottom-left-radius: 0;
         border-top-right-radius: 40px;
     }
   }
+  @media (max-width: 575.98px) { 
+    .info-content img{
+        max-width: 200px;
+    }
+   }
   
